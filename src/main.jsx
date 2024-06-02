@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './Layout.jsx'
-import Tunes from './Tunes.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './Pages/Home.jsx'
 
 const router = createBrowserRouter([
   {
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     children : [
       {
         path : '/',
-        element : <Tunes/>
-      }
+    element : <Home/>,
+  }
     ]
   }
 ])

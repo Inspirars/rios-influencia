@@ -1,11 +1,15 @@
 import { Outlet } from "react-router-dom"
+import { Footer, Navbar } from "./components"
 
 function Layout() {
 
   return (
-    <div className="flex ">
-      <h1 className="text-7xl">welcome</h1>
-      <div id="yes"><Outlet/></div>
+    <div className="">
+      <Navbar/>
+      <div>
+        <Outlet/>
+      </div>
+      <Footer/>
     </div>
   )
 }
