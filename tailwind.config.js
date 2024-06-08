@@ -17,6 +17,7 @@ export default {
           50 : "#F9FAFB",
           100 : "#E5E6E7",
           200 : "#E4E7EC",
+          400 : "#98A2B3",
           500 : '#667185',
           700 : '#344054',
           800 : '#1D2739'
@@ -24,6 +25,7 @@ export default {
         purple : "#9546E8"
       },
       fontFamily : {
+        poppins : ["Poppins", 'sans-serif'],
         charmonan : ["Charmonman", "cursive"],
         inter : ["Inter", 'sans-serif'],
         satoshi : ['Satoshi', 'sans-serif']

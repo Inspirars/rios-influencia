@@ -14,16 +14,17 @@ PrimaryButton.propTypes = {
 
 export default PrimaryButton
 
-export const SecondaryButton = ({text})=> {
+export const SecondaryButton = ({text,width})=> {
   return (
-    <button className='bg-[#231F20] text-[#F1E5FF] font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded hover:text-[#231F20] hover:border hover:border-[#231F20] hover:bg-[#F1E5FF] transition-all duration-700 ease-in-out'>
+    <button className={`bg-[#231F20] text-[#F1E5FF] font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded md:rounded-lg hover:text-[#231F20] hover:border hover:border-[#231F20] hover:bg-white transition-all duration-700 ease-in-out w-${width}`}>
       {text}
     </button>
   )
 }
 
 SecondaryButton.propTypes = {
-  text : PropTypes.string
+  text : PropTypes.string,
+  width : PropTypes.string,
 }
 
 export const TertiaryButton = ({text})=> {

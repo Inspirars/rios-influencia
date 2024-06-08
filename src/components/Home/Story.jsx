@@ -2,7 +2,7 @@ import { SecondaryButton, TertiaryButton } from "../Button"
 
 const Story = () => {
   return (
-    <div className=" pt-14 md:pt-20 lg:pt-32 pb-10 md:pb-14 lg:pb-20">
+    <div className=" py-14 md:py-20 lg:py-32">
       <div className=" bg-to1 bg-black-100 bg-no-repeat py-10 md:py-14 lg:py-24 flex flex-col items-center px-5">
         <div className="bg-[#F1E5FF] p-5 lg:p-14 rounded-[20px] font-satoshi">
             <h5 className="pb-3 lg:pb-4 text-[#667185] font-normal md:text-base lg:text-xl">
