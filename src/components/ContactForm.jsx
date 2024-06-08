@@ -48,7 +48,7 @@ const ContactForm = () => {
                   <ErrorMessage name="need" component="div" className="text-red-400 italic"/>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:col-end-3 pt-8 md:pt-12 lg:pt-16">
-                  <SecondaryButton text="Get in touch" width="full" disabled={} />
+                  <SecondaryButton text="Get in touch" width="full" />
                 </div>
               </Form>
             </Formik>
