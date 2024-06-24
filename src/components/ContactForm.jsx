@@ -34,7 +34,7 @@ const ContactForm = () => {
             })}
             onSubmit={(values)=>{
               setIsSubmit(true)
-              axios.post('http://localhost:8080/api/v1/contact',values)
+              axios.post('https://temitope-server.vercel.app/api/v1/contact',values)
                 .then(() => {
                   setIsSubmit(false)
                   setSubmitted(true)
