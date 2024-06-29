@@ -28,13 +28,13 @@ const Landing = () => {
         OUR MANIFESTO
         </header>
         <p className="text-[#667185] text-lg md:text-xl lg:text-2xl leading-8">
-        <span className="text-grey-800 font-charmonan text-4xl md:text-5xl lg:text-6xl md:leading-8 lg:leading-8">In    </span>a time where advanced healthcare systems still leave patients <br className="hidden md:flex" /> vulnerable post-hospital discharge, Rios Influencia steps in to bridge <br className="hidden md:flex" /> the critical gap in medicine management for home-based patients.<br className="hidden md:flex" /> Our unique approach ensures holistic healthcare for complete <br className="hidden md:flex" /> recovery beyond hospital walls.
+        <span className="text-grey-800 font-charmonan text-4xl md:text-5xl lg:text-6xl md:leading-8 lg:leading-8">In    </span>a time where advanced healthcare systems still leave patients <br className="hidden md:flex" /> vulnerable post-hospital discharge, Rios-Influencia steps in to bridge <br className="hidden md:flex" /> the critical gap in medicine management for home-based patients.<br className="hidden md:flex" /> Our unique approach ensures holistic healthcare for complete <br className="hidden md:flex" /> recovery beyond hospital walls.
         </p>
         <p className="text-[#667185] py-4 md:py-6 text-lg md:text-xl lg:text-2xl leading-8">
         We are dedicated to transforming community healthcare by <br className="hidden md:flex" /> delivering tailored services for patients transitioning from hospital to <br className="hidden md:flex" /> home. Our unwavering commitment to excellence and innovation <br className="hidden md:flex" /> empowers patients to achieve optimal health outcomes, fostering a <br className="hidden md:flex" /> seamless continuum of care.
         </p>
         <p className="text-grey-500 text-lg md:text-2xl font-semibold">
-        We are Rios Influencia, and we are revolutionizing post-hospital <br className="hidden lg:flex" /> care.
+        We are Rios-Influencia, and we are revolutionizing post-hospital <br className="hidden lg:flex" /> care.
         </p>
       </div>
     </div>

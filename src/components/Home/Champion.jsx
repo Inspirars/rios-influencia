@@ -50,7 +50,7 @@ const Champion = () => {
                   </h6>
                 </div>
                  <h2 className='text-2xl lg:text-[clamp(30px,2.77vw,40px)] md:leading-10 lg:leading-[56px] text-grey-700 font-bold font-satoshi pb-3 lg:pb-7'>
-                 Mastering Medication <br className="" /> Management
+                Medicines Management <br className="" /> Training
                  </h2>
                  <div className='pr-3 lg:px-0'>
                  <p className='text-sm md:text-lg lg:text-xl'>
@@ -66,7 +66,7 @@ const Champion = () => {
                   </h6>
                 </div>
                  <h2 className='text-2xl lg:text-[clamp(30px,2.77vw,40px)] md:leading-10 lg:leading-[56px] text-grey-700 font-bold font-satoshi pb-3 lg:pb-7'>
-                 Reinforcing <br className="" />Community Healthcare
+                 Supporting <br className="" />Services Provider
                  </h2>
                  <div className='pr-3 lg:px-0'>
                  <p className='text-sm md:text-lg lg:text-xl'>

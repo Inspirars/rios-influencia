@@ -1,7 +1,7 @@
-import healthcare from "../../assets/about/healthcare.svg";
-import patients from "../../assets/about/patients.svg";
-import satisfaction from "../../assets/about/satisfaction.svg";
-import years from "../../assets/about/years.svg";
+// import healthcare from "../../assets/about/healthcare.svg";
+// import patients from "../../assets/about/patients.svg";
+// import satisfaction from "../../assets/about/satisfaction.svg";
+// import years from "../../assets/about/years.svg";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
         Our comprehensive range of services is designed to meet the<br className="hidden lg:flex" /> unique needs of healthcare institutions and professionals. Explore<br className="hidden lg:flex" /> our offerings to discover how we can support you in delivering<br className="hidden lg:flex" /> exceptional care and achieving optimal health outcomes through<br className="hidden lg:flex" /> innovative training and consultancy.
         </p>
       </div>
-      <div className='grid grid-cols-2 lg:grid-cols-4 place-content-center justify-center lg:w-[81.45vw] gap-14 lg:gap-14 pb-12 md:pb-20 lg:pb-[104px]'>
+      {/* <div className='grid grid-cols-2 lg:grid-cols-4 place-content-center justify-center lg:w-[81.45vw] gap-14 lg:gap-14 pb-12 md:pb-20 lg:pb-[104px]'>
         <div>
           <div className="pb-3 md:pb-5">
             <img src={patients} alt="" />
@@ -59,7 +59,7 @@ const Hero = () => {
           Satisfaction Rate Among <br className="hidden md:flex" /> Patients and Institutions
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -12,7 +12,7 @@ const Solution = () => {
         </div>
       </header>
       <h6 className="text-grey-400 text-xl md:text-2xl lg:text-[clamp(30px,2.77vw,40px)] lg:leading-[61px] font-bold pb-14 md:pb-20 lg:pb-[120px]">
-      At Rios Influencia, we specialize in providing <br className="hidden md:flex" /> tailored expert solutions aimed at elevating <br className="hidden md:flex" /> patient care and achieving operational <br className="hidden md:flex" /> excellence across all levels of healthcare <br className="hidden md:flex" />  delivery. 
+      At Rios-Influencia, we specialize in providing <br className="hidden md:flex" /> tailored expert solutions aimed at elevating <br className="hidden md:flex" /> patient care and achieving operational <br className="hidden md:flex" /> excellence across all levels of healthcare <br className="hidden md:flex" />  delivery. 
       </h6>
       <div className="flex flex-col lg:flex-row items-start gap-7 md:gap-9 lg:gap-24   pb-14 md:pb-20 lg:pb-[104px]">
         <h4 className="text-xl md:text-[26px] text-[#000] font-bold">

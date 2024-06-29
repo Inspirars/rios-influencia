@@ -17,7 +17,7 @@ const Hero = () => {
         At Rios Influencia, we believe in the power of comprehensive <br className="hidden lg:flex" /> and compassionate care. Join us on our journey to bridge the gap <br className="hidden lg:flex" /> between hospital and home, and to create a seamless continuum <br className="hidden lg:flex" /> of care for patients around the world.
         </p>
       </div>
-      <div className='grid grid-cols-2 lg:grid-cols-4 place-content-center justify-center lg:w-[81.45vw] gap-14 lg:gap-14 pb-12 md:pb-20 lg:pb-[104px]'>
+      {/* <div className='grid grid-cols-2 lg:grid-cols-4 place-content-center justify-center lg:w-[81.45vw] gap-14 lg:gap-14 pb-12 md:pb-20 lg:pb-[104px]'>
         <div>
           <div className="pb-3 md:pb-5">
             <img src={patients} alt="" />
@@ -62,7 +62,7 @@ const Hero = () => {
           Satisfaction Rate Among <br className="hidden md:flex" /> Patients and Institutions
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 lg:gap-6">
         <div>
           <img src={about1} alt="" />

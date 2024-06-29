@@ -1,4 +1,4 @@
-import { SecondaryButton, TertiaryButton } from "../Button"
+import { Link } from "react-router-dom"
 
 const Story = () => {
   return (
@@ -21,8 +21,12 @@ const Story = () => {
             The name &apos;Rios Influencia,&apos; meaning &apos; global influence, &apos; reflects her vision to extend their <br className="hidden md:flex"/> solutions worldwide. With a mission to revolutionize healthcare delivery through expert training, <br className="hidden md:flex"/> Rios Influencia is dedicated to making a positive impact and ensuring no patient is left behind <br className="hidden md:flex"/> by empowering healthcare professionals with the skills and knowledge they need to excel.
             </p>
             <div className="pt-6 lg:pt-10 flex items-center gap-3">
-                <SecondaryButton text="Read More" />
-                <TertiaryButton text="Visit Temitope's Site" />
+              <Link to='/about' className={`bg-[#231F20] text-[#F1E5FF] font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-center text-sm md:text-base rounded md:rounded-lg hover:text-[#231F20] hover:border hover:border-[#231F20] hover:bg-white transition-all duration-700 ease-in-out disabled:bg-[rgba(35,31,32,0.05)]`}>
+              Read More
+              </Link>
+                <Link className={`bg-transparent text-[#231F20] border border-[#231F20] font-inter font-semibold px-5 py-3 lg:px-8 lg:py-4 text-sm md:text-base rounded transition-all duration-700 ease-in-out`} to='https://www.temitopeodetunde.com/' target="_blank">
+                Visit Temitope&apos;s Site
+                </Link>
             </div>
         </div>
       </div>

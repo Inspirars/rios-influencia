@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom"
 import { ContactForm, Footer, Navbar } from "./components"
+import { ScrollRestoration } from "react-router-dom";
+import Enhance from "./components/Enhance"
 
 function Layout() {
 
@@ -9,7 +11,9 @@ function Layout() {
       <div>
         <Outlet/>
       </div>
+      <Enhance/>
       <ContactForm/>
+      <ScrollRestoration/>
       <Footer/>
     </div>
   )

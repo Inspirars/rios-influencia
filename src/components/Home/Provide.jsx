@@ -8,7 +8,7 @@ const Provide = () => {
         <p>🏥 Healthcare Institutions</p>
         <p>👨🏻‍⚕ Healthcare Professionals</p>
         <p>👩‍🔧 Patients Requiring Post-Hospital Care</p>
-        <p>✨ Individuals Seeking Career Opportunities</p>
+        <p>👷‍♀️ Individuals Seeking Career Change</p>
         <p>🏫 Educational Institutions</p>
         <p>👨🏻‍🔧 Training Agencies and Platforms</p>
         </div>

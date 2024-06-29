@@ -34,7 +34,7 @@ const Breakdown = () => {
             <img src={regulatory} alt="" />
         </div>
       </div>
-      <div className="pb-14 md:pb-28 lg:pb-44">
+      {/* <div className="pb-14 md:pb-28 lg:pb-44">
         <div className="flex flex-col lg:flex-row items-start justify-center gap-7 md:gap-9 lg:gap-24 pb-11 md:pb-14 lg::pb-20">
             <h4 className="text-xl md:text-[26px] text-[#000] font-bold">
             Care Homes Policies <br />and Procedure.
@@ -46,7 +46,7 @@ const Breakdown = () => {
         <div>
             <img src={care} alt="" />
         </div>
-      </div>
+      </div> */}
       <div className="pb-14 md:pb-28 lg:pb-44">
         <div className="flex flex-col lg:flex-row items-start justify-center gap-7 md:gap-9 lg:gap-24 pb-11 md:pb-14 lg::pb-20">
             <h4 className="text-xl md:text-[26px] text-[#000] font-bold">

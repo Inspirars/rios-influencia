@@ -1,7 +1,7 @@
 import mission from "../../assets/about/mission.png";
 import vision from "../../assets/about/vision.svg";
 import temitope from "../../assets/about/temitope.png"
-import { TertiaryButton } from "../Button";
+import { Link } from "react-router-dom";
 const Mission = () => {
   return (
     <div className="bg-[#FFF0F5] grid grid-cols-1 md:grid-cols-2 py-10 md:py-14 lg:py-20 px-5 lg:px-[111px] gap-3 lg:gap-6">
@@ -37,7 +37,9 @@ const Mission = () => {
             <p className=" text-grey-500 text-sm lg:text-lg pb-8 md:pb-9 lg:pb-8">
             Temitope Odetunde is a visionary leader with a deep<br className="hidden lg:flex" /> commitment to enhancing patient care. Her journey<br className="hidden lg:flex" /> from a community health service professional to the<br className="hidden lg:flex" /> founder of Rios Influencia is a testament to her<br className="hidden lg:flex" /> dedication, empathy, and drive for innovation in<br className="hidden lg:flex" /> healthcare. Her firsthand experiences have shaped<br className="hidden lg:flex" /> the mission and values of Rios Influencia, guiding the<br className="hidden lg:flex" /> company towards making a global impact.
             </p>
-            <TertiaryButton text="Visit Temitope’s Site"/>
+            <Link className={`bg-transparent text-[#231F20] border border-[#231F20] font-inter font-semibold px-5 py-3 lg:px-8 lg:py-4 text-sm md:text-base rounded transition-all duration-700 ease-in-out`} to='https://www.temitopeodetunde.com/' target="_blank">
+                Visit Temitope&apos;s Site
+            </Link>
         </div>
     </div>
   )

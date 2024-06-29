@@ -16,7 +16,7 @@ export default PrimaryButton
 
 export const SecondaryButton = ({text,width, disabled})=> {
   return (
-    <button className={`bg-[#231F20] text-[#F1E5FF] font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded md:rounded-lg hover:text-[#231F20] hover:border hover:border-[#231F20] hover:bg-white transition-all duration-700 ease-in-out w-${width} disabled:bg-[rgba(35,31,32,0.05)]`} disabled={disabled}>
+    <button className={`bg-[#231F20] text-[#F1E5FF] font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-center text-sm md:text-base rounded md:rounded-lg hover:text-[#231F20] hover:border hover:border-[#231F20] hover:bg-white transition-all duration-700 ease-in-out w-${width} disabled:bg-[rgba(35,31,32,0.05)]`} disabled={disabled}>
       {text}
     </button>
   )
