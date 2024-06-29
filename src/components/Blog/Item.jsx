@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import angleArrow from "../../assets/blog/angleArrow.png"
+import PropTypes from 'prop-types'
 
 const Item = ({tag, img, topic, subtopic, date, to }) => {
   return ( 
@@ -28,6 +29,15 @@ const Item = ({tag, img, topic, subtopic, date, to }) => {
       </div>
     </Link>
   )
+}
+
+Item.propTypes = {
+  tag : PropTypes.string,
+  img : PropTypes.string,
+  topic : PropTypes.string,
+  subtopic : PropTypes.string,
+  date : PropTypes.string,
+  to : PropTypes.string
 }
 
 export default Item
