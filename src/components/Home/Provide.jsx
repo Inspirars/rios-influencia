@@ -10,7 +10,7 @@ const Provide = () => {
         <p>👩‍🔧 Patients Requiring Post-Hospital Care</p>
         <p>👷‍♀️ Individuals Seeking Career Change</p>
         <p>🏫 Educational Institutions</p>
-        <p>👨🏻‍🔧 Training Agencies and Platforms</p>
+        <p>👨🏻‍🔧 Training Agencies</p>
         </div>
     </div>
   )

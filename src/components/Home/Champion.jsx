@@ -18,7 +18,7 @@ const Champion = () => {
                   </h6>
                 </div>
                  <h2 className='text-2xl lg:text-[clamp(30px,2.77vw,40px)] md:leading-10 lg:leading-[56px] text-grey-700 font-bold font-satoshi pb-3 lg:pb-7'>
-                 Bridging the Gap in <br className="" /> Post-Hospital Care
+                 Bridging the Gap in <br className="" /> Domiciliary Care
                  </h2>
                  <div className='pr-3 lg:px-0'>
                  <p className='text-sm md:text-lg lg:text-xl'>
@@ -70,7 +70,7 @@ const Champion = () => {
                  </h2>
                  <div className='pr-3 lg:px-0'>
                  <p className='text-sm md:text-lg lg:text-xl'>
-                 Through our holistic training solutions, we strengthen <br className='hidden lg:flex' /> community healthcare systems, ensuring healthcare <br className='hidden lg:flex' /> providers can effectively manage patients post-hospital <br className='hidden lg:flex' /> discharge and prevent relapses.
+                 Through our holistic training solutions, we strengthen <br className='hidden lg:flex' /> community healthcare systems, ensuring healthcare <br className='hidden lg:flex' /> providers can effectively manage patients post-hospital <br className='hidden lg:flex' /> discharge and prevent readmission.
                  </p>
                  </div>
             </div>

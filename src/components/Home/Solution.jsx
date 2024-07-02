@@ -32,7 +32,7 @@ const Solution = () => {
       </div>
       <div className="flex flex-col lg:flex-row items-start gap-7 md:gap-9 lg:gap-32 pb-14 md:pb-20 lg:pb-[104px]">
         <h4 className="text-xl md:text-[26px] text-[#000] font-bold">
-        Care Homes Policies<br/>and Procedure.
+        Domiciliary and Care <br /> Home Policies and <br/> Procedure.
         </h4>
         <p className="text-base md:text-2xl text-grey-400">
         Enhance operational efficiency and resident care with<br className="hidden md:flex" />  tailored policies and procedures. Streamline your<br className="hidden md:flex" />  processes and create a nurturing environment for both<br className="hidden md:flex" />  staff and residents with our expert solutions.
@@ -44,14 +44,6 @@ const Solution = () => {
         </h4>
         <p className="text-base md:text-2xl text-grey-400">
         Maximize therapeutic benefits and minimize risks with<br className="hidden md:flex" /> our personalized training interventions. Our programs<br className="hidden md:flex" /> ensure your healthcare professionals can optimize<br className="hidden md:flex" /> medication use and promote  patient well-being<br className="hidden md:flex" /> effectively.
-        </p>
-      </div>
-      <div className="flex flex-col lg:flex-row items-start gap-7 md:gap-9 lg:gap-28 pb-14 md:pb-20 lg:pb-[104px]">
-        <h4 className="text-xl md:text-[26px] text-[#000] font-bold">
-        System Optimization.
-        </h4>
-        <p className="text-base md:text-2xl text-grey-400 md:w-[75vw] lg:w-[43.05vw]">
-        Improve workflow efficiency and streamline your healthcare systems with our expert evaluation and enhancement training. We help you optimize resources, enabling your team to focus on delivering superior patient care.
         </p>
       </div>
       <div className="flex flex-col lg:flex-row items-start gap-7 md:gap-9 lg:gap-0 pb-10 md:pb-14 lg:pb-20">
