@@ -13,7 +13,7 @@ const Mission = () => {
             <img src={mission} alt="" />
             </div>
             <p className="text-center text-grey-500 text-sm lg:text-lg">
-            To end revolving door patient care by championing <br className="hidden lg:flex" /> patient-centric, holistic healthcare and ensuring <br className="hidden lg:flex" /> seamless transitions from hospital to home.
+            To end revolving door patient care by championing <br className="hidden lg:flex" /> patient-centered, holistic healthcare and ensuring <br className="hidden lg:flex" /> seamless transitions from hospital to home.
             </p>
         </div>
         <div className="bg-white rounded-2xl lg:rounded-[20px] px-5 md:px-12 lg:px-14 pt-8 pb-10 md:pt-10 md:pb-12 lg:pt-14 lg:pb-16 flex flex-col items-center font-satoshi">

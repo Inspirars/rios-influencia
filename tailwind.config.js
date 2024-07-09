@@ -33,7 +33,11 @@ export default {
         to1: "url('./src/assets/home/to1.png')",
       },
       backgroundSize : {
-        
+        '30%' : '30%',
+        '50%': '50%',
+        '70%': '70%',
+        '75%': '75%',
+        '80%': '80%',
       }
     },
   },

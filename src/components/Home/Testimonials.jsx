@@ -1,5 +1,5 @@
 import line from "../../assets/home/line.png"
-import commentImg from "../../assets/home/commentImage.png"
+// import commentImg from "../../assets/home/commentImage.png"
 const Testimonials = () => {
   return (
     <div className="bg-grey-100 flex flex-col items-center px-5 md:px-16 lg:px-24 py-16 md:py-32 lg:py-44">
@@ -19,18 +19,18 @@ const Testimonials = () => {
             </p>
             <section className="bg-white border border-[#EFF0F6] rounded-xl md:rounded-[20px] px-4 md:px-8 lg:px-11 pt-11 md:pt-14 lg:pt-20 pb-8 md:pb-11 lg:pb-14">
             <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9">
-            “Rios Influencia has transformed the way we manage post-hospital care. Their tailored solutions and patient-centric approach have significantly improved our patients&lsquo; recovery outcomes. We couldn&lsquo;t be more pleased with their service.”
+            “I highly recommend Temitope to anyone looking to take themselves to new heights. Her expertise, professionalism, and passion for what she does makes her a true asset to the world. I look forward to the opportunity to work with her more”
             </p>
             <div className="flex items-center gap-3">
-                <div>
+                {/* <div>
                     <img src={commentImg} alt="comment image" />
-                </div>
+                </div> */}
                 <div>
                     <h5 className="text-[#170F49] text-sm md:text-lg font-bold font-inter">
-                    Dr. Sarah Thompson
+                    Amarachukwu Ruth
                     </h5>
                     <p className="text-[#6F6C90] text-sm md:text-lg ">
-                    Healthcare Administrator
+                    CPLP
                     </p>
                 </div>
             </div>
@@ -39,36 +39,38 @@ const Testimonials = () => {
         <div className="flex flex-col gap-7 md:gap-11 lg:gap-14">
         <section className="bg-white border border-[#EFF0F6] rounded-xl md:rounded-[20px] px-4 md:px-8 lg:px-11 pt-11 md:pt-14 lg:pt-20 pb-8 md:pb-11 lg:pb-14">
             <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9">
-            “Rios Influencia has transformed the way we manage post-hospital care. Their tailored solutions and patient-centric approach have significantly improved our patients&lsquo; recovery outcomes. We couldn&lsquo;t be more pleased with their service.”
+            “I wanted to take a moment to express my gratitude for the invaluable information and insights you&apos;ve shared with me. Your expertise and generosity in providing such detailed guidance have been truly remarkable and have greatly enriched my understanding of your role”
             </p>
             <div className="flex items-center gap-3">
-                <div>
+                {/* <div>
                     <img src={commentImg} alt="comment image" />
-                </div>
+                </div> */}
                 <div>
                     <h5 className="text-[#170F49] text-sm md:text-lg font-bold font-inter">
-                    Dr. Sarah Thompson
+                    Antonia Akobi
                     </h5>
-                    <p className="text-[#6F6C90] text-sm md:text-lg ">
+                    {/* <p className="text-[#6F6C90] text-sm md:text-lg ">
                     Healthcare Administrator
-                    </p>
+                    </p> */}
                 </div>
             </div>
             </section>
             <section className="bg-white border border-[#EFF0F6] rounded-xl md:rounded-[20px] px-4 md:px-8 lg:px-11 pt-11 md:pt-14 lg:pt-20 pb-8 md:pb-11 lg:pb-14">
             <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9">
-            “Rios Influencia has transformed the way we manage post-hospital care. Their tailored solutions and patient-centric approach have significantly improved our patients&lsquo; recovery outcomes. We couldn&lsquo;t be more pleased with their service.”
+            “
+            I want to express my sincere appreciation for taking your time to coach me for my interview, I&apos;m still so short of words on how to express my appreciation.
+            ”
             </p>
             <div className="flex items-center gap-3">
-                <div>
+                {/* <div>
                     <img src={commentImg} alt="comment image" />
-                </div>
+                </div> */}
                 <div>
                     <h5 className="text-[#170F49] text-sm md:text-lg font-bold font-inter">
-                    Dr. Sarah Thompson
+                    Ibitola Omotola
                     </h5>
                     <p className="text-[#6F6C90] text-sm md:text-lg ">
-                    Healthcare Administrator
+                    Msc CAMHS, BSc Psych
                     </p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import medication from "../../assets/services/medication.png"
 import regulatory from "../../assets/services/regulatory.png"
-import care from "../../assets/services/care.png"
-import system from "../../assets/services/system.png"
+// import care from "../../assets/services/care.png"
+// import system from "../../assets/services/system.png"
 import coaching from "../../assets/services/coaching.png"
 import medicine from "../../assets/services/medicine.png"
 
@@ -60,7 +60,7 @@ const Breakdown = () => {
             <img src={medicine} alt="" />
         </div>
       </div>
-      <div className="pb-14 md:pb-28 lg:pb-44">
+      {/* <div className="pb-14 md:pb-28 lg:pb-44">
         <div className="flex flex-col lg:flex-row items-start justify-center gap-7 md:gap-9 lg:gap-24 pb-11 md:pb-14 lg::pb-20">
             <h4 className="text-xl md:text-[26px] text-[#000] font-bold">
             System Optimization.
@@ -72,7 +72,7 @@ const Breakdown = () => {
         <div>
             <img src={system} alt="" />
         </div>
-      </div>
+      </div> */}
       <div className="pb-14 md:pb-28 lg:pb-44">
         <div className="flex flex-col lg:flex-row items-start justify-center gap-7 md:gap-9 lg:gap-24 pb-11 md:pb-14 lg::pb-20">
             <h4 className="text-xl md:text-[26px] text-[#000] font-bold">

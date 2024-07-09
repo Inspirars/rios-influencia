@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import logo from "../assets/logo.svg"
-import PrimaryButton from "./Button"
+// import PrimaryButton from "./Button"
 import ham from "../assets/hammenu.svg"
 import { useEffect} from "react"
 import closeIcon from "../assets/close.svg"
@@ -87,12 +87,16 @@ const Navbar = () => {
                 Contact us
             </NavLink>
             <div className="flex lg:hidden">
-            <PrimaryButton text="Get Started"/>
+            <Link className='bg-purple text-grey-100 font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded-2xl hover:text-purple hover:border hover:border-purple hover:bg-white transition-all duration-700 ease-in-out' to='https://selar.co/m/temitope-odetunde1' target='_blank'>
+            Get Started
+            </Link>
             </div>
             </div>
             </nav>
             <div className="hidden lg:flex">
-            <PrimaryButton text="Get Started"/>
+            <Link className='bg-purple text-grey-100 font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded-2xl hover:text-purple hover:border hover:border-purple hover:bg-white transition-all duration-700 ease-in-out' to='https://selar.co/m/temitope-odetunde1' target='_blank'>
+            Get Started
+            </Link>
             </div>
             <img src={ham} alt="" className="w-14 lg:hidden" id="ham" />
         </div>

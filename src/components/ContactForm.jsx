@@ -65,9 +65,7 @@ const ContactForm = () => {
                     <option>Select service from here</option>
                     <option>Medication Management Training</option>
                     <option>Regulatory Compliance</option>
-                    <option>Care Home Policies</option>
                     <option>Medicine Optimization</option>
-                    <option>System Optimization</option>
                     <option>Coaching and Mentoring</option>
                   </Field>
                   <ErrorMessage name="service" component="div" className="text-red-400 italic" />
