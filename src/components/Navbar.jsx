@@ -83,7 +83,7 @@ const Navbar = () => {
             <NavLink to="/blog">
                 Blog
             </NavLink>
-            <NavLink to="/goals">
+            <NavLink to='https://selar.co/m/temitope-odetunde1' target='_blank'>
                 Contact us
             </NavLink>
             <div className="flex lg:hidden">

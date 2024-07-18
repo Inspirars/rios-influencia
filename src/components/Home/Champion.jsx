@@ -38,7 +38,7 @@ const Champion = () => {
                  </h2>
                  <div className='pr-3 lg:px-0'>
                  <p className='text-sm md:text-lg lg:text-xl'>
-                 Our programs prioritize patient-centric <br className='hidden lg:flex' />  approaches, equipping professionals with the <br className='hidden lg:flex' />  skills  to provide personalized support tailored to <br className='hidden lg:flex' /> individual needs.
+                 Our programs prioritize patient-centric <br className='hidden lg:flex' />  approaches, equipping professionals with the <br className='hidden lg:flex' />  skills to provide personalized support tailored to <br className='hidden lg:flex' /> individual needs.
                  </p>
                  </div>
             </div>
@@ -54,7 +54,7 @@ const Champion = () => {
                  </h2>
                  <div className='pr-3 lg:px-0'>
                  <p className='text-sm md:text-lg lg:text-xl'>
-                 We offer specialized training in medication <br className='hidden lg:flex' />  management, regulatory compliance, and <br className='hidden lg:flex' /> enhancing care   homes&apos; policies and procedures <br className='hidden lg:flex' />  to optimize  patient outcomes.
+                 We offer specialized training in medication <br className='hidden lg:flex' />  management, regulatory compliance, and <br className='hidden lg:flex' /> enhancing care homes&apos; policies and procedures <br className='hidden lg:flex' />  to optimize patient outcomes.
                  </p>
                  </div>
             </div>

@@ -1,7 +1,7 @@
-import healthcare from "../../assets/about/healthcare.svg";
-import patients from "../../assets/about/patients.svg";
-import satisfaction from "../../assets/about/satisfaction.svg";
-import years from "../../assets/about/years.svg";
+// import healthcare from "../../assets/about/healthcare.svg";
+// import patients from "../../assets/about/patients.svg";
+// import satisfaction from "../../assets/about/satisfaction.svg";
+// import years from "../../assets/about/years.svg";
 import about1 from "../../assets/about/about1.png"
 import about2 from "../../assets/about/about2.png"
 import about3 from "../../assets/about/about3.png"
@@ -14,7 +14,7 @@ const Hero = () => {
         We are Dedicated to <br /> Seamless Patient Care
         </header>
         <p className="text-grey-500 text-sm md:text-lg ">
-        At Rios Influencia, we believe in the power of comprehensive <br className="hidden lg:flex" /> and compassionate care. Join us on our journey to bridge the gap <br className="hidden lg:flex" /> between hospital and home, and to create a seamless continuum <br className="hidden lg:flex" /> of care for patients around the world.
+        At Rios-Influencia, we believe in the power of comprehensive <br className="hidden lg:flex" /> and compassionate care. Join us on our journey to bridge the gap <br className="hidden lg:flex" /> between hospital and home, and to create a seamless continuum <br className="hidden lg:flex" /> of care for patients around the world.
         </p>
       </div>
       {/* <div className='grid grid-cols-2 lg:grid-cols-4 place-content-center justify-center lg:w-[81.45vw] gap-14 lg:gap-14 pb-12 md:pb-20 lg:pb-[104px]'>

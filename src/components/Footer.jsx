@@ -13,7 +13,7 @@ const Footer = () => {
         <NavLink to='/services'>
           Services
         </NavLink>
-        <NavLink to='/contact'>
+        <NavLink to='https://selar.co/m/temitope-odetunde1' target='_blank'>
           Contact Us
         </NavLink>
         <NavLink to='/blog'>
