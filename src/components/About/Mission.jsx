@@ -12,7 +12,7 @@ const Mission = () => {
             <div className=" py-10 md:py-12 lg:py-[72px]">
             <img src={mission} alt="" />
             </div>
-            <p className="text-center text-grey-500 text-sm lg:text-lg">
+            <p className="text-center text-grey-500 text-sm lg:text-base">
             To end revolving door patient care by championing <br className="hidden lg:flex" /> patient-centered, holistic healthcare and ensuring <br className="hidden lg:flex" /> seamless transitions from hospital to home.
             </p>
         </div>
@@ -23,7 +23,7 @@ const Mission = () => {
             <div className=" py-10 md:py-12 lg:py-[72px]">
             <img src={vision} alt="" />
             </div>
-            <p className="text-center text-grey-500 text-sm lg:text-lg">
+            <p className="text-center text-grey-500 text-sm lg:text-base">
             To be the vital link between hospital and home <br className="hidden lg:flex" />, creating a global platform for leading consulting <br className="hidden lg:flex" />, training, and education in pharmaceutical care.
             </p>
         </div>
