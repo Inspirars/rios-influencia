@@ -10,7 +10,7 @@ const ContactForm = () => {
   const [isSubmit, setIsSubmit] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   return (
-    <div className="pt-12 md:pt-14 lg:pt-24">
+    <div className="pt-12 md:pt-14 lg:pt-24" id="contact">
       <div className="bg-to1 bg-purple bg-no-repeat py-10 md:py-14 lg:py-24 flex flex-col items-center px-5">
         <div className="bg-white p-5 md:p-8 lg:p-10 rounded-xl md:rounded-[20px] w-full max-w-[920px] relative">
          {submitted ? 

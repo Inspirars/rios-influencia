@@ -10,7 +10,7 @@ const Champion = () => {
         HOW WE CHAMPION YOUR HEALTH
         </header>
         <div className="grid md:grid-cols-2 gap-4 lg:gap-6">
-            <div  className="bg-[#E6E6FA] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200">
+            <div  className="bg-[#E6E6FA] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200 lg:max-w-[560px]">
                 <img src={bridging} alt="bridging" className='lg:w-[35.63vw] pb-8 md:pb-12 lg:pb-14' />
                 <div className='bg-[#1D2739] rounded-md py-1 px-2 w-fit text-white  mb-2 md:mb-4'>
                   <h6 className='text-[8px] md:text-sm'>
@@ -21,12 +21,12 @@ const Champion = () => {
                  Bridging the Gap in <br className="" /> Domiciliary Care
                  </h2>
                  <div className='pr-3 lg:px-0'>
-                 <p className='text-sm md:text-lg lg:text-xl'>
-                 We train healthcare professionals to deliver <br className='hidden lg:flex' /> comprehensive care and support for home-based <br className='hidden lg:flex' /> patients,  ensuring a smooth transition from hospital <br className='hidden lg:flex' /> to home.
+                 <p className='text-sm md:text-lg lg:text-xl lg:max-w-[85%] text-justify'>
+                 We train healthcare professionals to deliver comprehensive care and support for home-based patients,  ensuring a smooth transition from hospital to home.
                  </p>
                  </div>
             </div>
-            <div  className="bg-[#F3E5F5] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200">
+            <div  className="bg-[#F3E5F5] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200 max-w-[560px]">
                 <img src={empowering} alt="bridging" className='lg:w-[35.63vw] pb-8 md:pb-12 lg:pb-14' />
                 <div className='bg-[#1D2739] rounded-md py-1 px-2 w-fit text-white  mb-2 md:mb-4'>
                   <h6 className='text-[8px] md:text-sm'>
@@ -37,12 +37,12 @@ const Champion = () => {
                  Empowering Patient-<br className="" />Centered Care
                  </h2>
                  <div className='pr-3 lg:px-0'>
-                 <p className='text-sm md:text-lg lg:text-xl'>
-                 Our programs prioritize patient-centric <br className='hidden lg:flex' />  approaches, equipping professionals with the <br className='hidden lg:flex' />  skills to provide personalized support tailored to <br className='hidden lg:flex' /> individual needs.
+                 <p className='text-sm md:text-lg lg:text-xl lg:max-w-[85%] text-justify'>
+                 Our programs prioritize patient-centric  approaches, equipping professionals with the  skills to provide personalized support tailored to individual needs.
                  </p>
                  </div>
             </div>
-            <div  className="bg-[#F5EAF7] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200">
+            <div  className="bg-[#F5EAF7] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200 max-w-[560px]">
                 <img src={mastering} alt="bridging" className='lg:w-[35.63vw] pb-8 md:pb-12 lg:pb-14' />
                 <div className='bg-[#1D2739] rounded-md py-1 px-2 w-fit text-white  mb-2 md:mb-4'>
                   <h6 className='text-[8px] md:text-sm'>
@@ -53,12 +53,12 @@ const Champion = () => {
                 Medicines Management <br className="" /> Training
                  </h2>
                  <div className='pr-3 lg:px-0'>
-                 <p className='text-sm md:text-lg lg:text-xl'>
-                 We offer specialized training in medication <br className='hidden lg:flex' />  management, regulatory compliance, and <br className='hidden lg:flex' /> enhancing care homes&apos; policies and procedures <br className='hidden lg:flex' />  to optimize patient outcomes.
+                 <p className='text-sm md:text-lg lg:text-xl lg:max-w-[85%] text-justify'>
+                 We offer specialized training in medication  management, regulatory compliance, and enhancing care homes&apos; policies and procedures  to optimize patient outcomes.
                  </p>
                  </div>
             </div>
-            <div  className="bg-[#FFF0F5] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200">
+            <div  className="bg-[#FFF0F5] py-5 pl-5 md:py-8 md:pl-8 lg:py-12 lg:pl-12 w-fit rounded-2xl border border-grey-200 max-w-[560px]">
                 <img src={reinforcing} alt="bridging" className='lg:w-[35.63vw] pb-8 md:pb-12 lg:pb-14' />
                 <div className='bg-[#1D2739] rounded-md py-1 px-2 w-fit text-white  mb-2 md:mb-4'>
                   <h6 className='text-[8px] md:text-sm'>
@@ -69,8 +69,8 @@ const Champion = () => {
                  Supporting <br className="" />Services Provider
                  </h2>
                  <div className='pr-3 lg:px-0'>
-                 <p className='text-sm md:text-lg lg:text-xl'>
-                 Through our holistic training solutions, we strengthen <br className='hidden lg:flex' /> community healthcare systems, ensuring healthcare <br className='hidden lg:flex' /> providers can effectively manage patients post-hospital <br className='hidden lg:flex' /> discharge and prevent readmission.
+                 <p className='text-sm md:text-lg lg:text-xl lg:max-w-[85%] text-justify'>
+                 Through our holistic training solutions, we strengthen community healthcare systems, ensuring healthcare providers can effectively manage patients post-hospital discharge and prevent readmission.
                  </p>
                  </div>
             </div>

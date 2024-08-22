@@ -53,7 +53,7 @@ const Testimonials = () => {
     useEffect(()=>{
         setInterval(()=>{
             setContent(getRandomComments())
-        },7500)
+        },10000)
     },[])
 
   return (
@@ -73,7 +73,7 @@ const Testimonials = () => {
             How dedicated support have transformed their operations and improved patient outcomes.
             </p>
             <section className="bg-white border border-[#EFF0F6] rounded-xl md:rounded-[20px] px-4 md:px-8 lg:px-11 pt-11 md:pt-14 lg:pt-20 pb-8 md:pb-11 lg:pb-14 transition-all duration-700">
-            <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9">
+            <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9 text-justify">
                 {content.content1?.comment}
             </p>
             <div className="flex items-center gap-3">
@@ -93,7 +93,7 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col gap-7 md:gap-11 lg:gap-14">
         <section className="bg-white border border-[#EFF0F6] rounded-xl md:rounded-[20px] px-4 md:px-8 lg:px-11 pt-11 md:pt-14 lg:pt-20 pb-8 md:pb-11 lg:pb-14 transition-all duration-700">
-            <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9">
+            <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9 text-justify">
             {content.content2?.comment}
             </p>
             <div className="flex items-center gap-3">
@@ -111,7 +111,7 @@ const Testimonials = () => {
             </div>
             </section>
             <section className="bg-white border border-[#EFF0F6] rounded-xl md:rounded-[20px] px-4 md:px-8 lg:px-11 pt-11 md:pt-14 lg:pt-20 pb-8 md:pb-11 lg:pb-14 hidden lg:block transition-all duration-700">
-            <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9">
+            <p className="text-[#514F6E] text-sm md:text-lg pb-6 md:pb-9 text-justify">
                 {content.content3?.comment}
             </p>
             <div className="flex items-center gap-3">

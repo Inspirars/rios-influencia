@@ -4,9 +4,11 @@ import logo from "../assets/logo.svg"
 import ham from "../assets/hammenu.svg"
 import { useEffect} from "react"
 import closeIcon from "../assets/close.svg"
+import 'react-responsive-modal/styles.css';
+import { HashLink } from "react-router-hash-link"
 const Navbar = () => {
   // const [mobileMenu, setMobileMenu] = useState(false)
-  
+
   useEffect(()=>{
     const nav = document.getElementById('nav')
     const herry = document.getElementById('herry')
@@ -83,9 +85,9 @@ const Navbar = () => {
             <NavLink to="/blog">
                 Blog
             </NavLink>
-            <NavLink to='https://selar.co/m/temitope-odetunde1' target='_blank'>
+            <HashLink smooth to="/#contact">
                 Contact us
-            </NavLink>
+            </HashLink>
             <div className="flex lg:hidden">
             <Link className='bg-purple text-grey-100 font-inter font-semibold px-4 py-3 lg:px-6 lg:py-4 text-sm md:text-base rounded-2xl hover:text-purple hover:border hover:border-purple hover:bg-white transition-all duration-700 ease-in-out' to='https://selar.co/m/temitope-odetunde1' target='_blank'>
             Get Started
@@ -102,8 +104,10 @@ const Navbar = () => {
         </div>
       <div id="herry" className="herry hidden">
       </div>
+      
     </div>
   )
 }
 
 export default Navbar
+
