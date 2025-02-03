@@ -8,8 +8,9 @@ const Landing = () => {
         <img src={star} alt="" />
         <p className="text-secondary text-sm md:text-sm">Journey to better health</p>
       </div>
-      <h1 className="text-2xl md:text-[clamp(32px,3.33vw,48px)] md:leading-10 lg:leading-[60px] text-black-100 font-semibold font-inter text-center pb-3 md:pb-4">
-      BRIDGING THE GAP BETWEEN <br/> HOSPITAL AND HOME
+      <h1 className="text-base md:text-2xl lg:text-[clamp(28px,2vw,48px)] md:leading-10 lg:leading-[40px] text-black-100 font-semibold font-inter text-center pb-3 md:pb-4 uppercase">
+      Coaching & Mentoring Healthcare Professionals <br className="hidden md:flex" /> to Excel: Supporting Healthcare <br className="hidden md:flex" /> Organisations to Thrive
+      {/* BRIDGING THE GAP BETWEEN <br/> HOSPITAL AND HOME */}
       </h1>
       <p className="text-center font-inter text-secondary text-base font-normal md:text-lg pb-6 md:pb-8">Training healthcare professionals to provide exceptional <br className="hidden md:flex" />, personalized pharmaceutical care for seamless patient <br className="hidden md:flex" /> transitions.
       </p>
