@@ -15,9 +15,9 @@ const Landing = () => {
       <p className="text-center font-inter text-secondary text-base font-normal md:text-lg pb-6 md:pb-8">Training healthcare professionals to provide exceptional <br className="hidden md:flex" />, personalized pharmaceutical care for seamless patient <br className="hidden md:flex" /> transitions.
       </p>
       <img src={group} className="pb-3"/>
-      <p className="text-sm md:text-base font-inter font-medium pb-8 md:pb-10">
+      {/* <p className="text-sm md:text-base font-inter font-medium pb-8 md:pb-10">
       Trusted by 3,000+ over the World
-      </p>
+      </p> */}
       {/* <PrimaryButton text="Get Started"/> */}
 
       <div className="pt-3 lg:pt-5">
